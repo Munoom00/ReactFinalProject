@@ -44,6 +44,7 @@ const ResumePage = () => {
                     animateOnRender
                     customLabel=" "
                     baseBgColor="gray"
+                    bgColor="#3a3b3c"
                   />
                 </Grid>
                 <Grid item xs={1}>
@@ -68,6 +69,7 @@ const ResumePage = () => {
                     animateOnRender
                     customLabel=" "
                     baseBgColor="gray"
+                    bgColor="#3a3b3c"
                   />
                 </Grid>
                 <Grid item xs={1}>
@@ -92,6 +94,7 @@ const ResumePage = () => {
                     animateOnRender
                     customLabel=" "
                     baseBgColor="gray"
+                    bgColor="#3a3b3c"
                   />
                 </Grid>
                 <Grid item xs={1}>
@@ -116,6 +119,7 @@ const ResumePage = () => {
                     animateOnRender
                     customLabel=" "
                     baseBgColor="gray"
+                    bgColor="#3a3b3c"
                   />
                 </Grid>
                 <Grid item xs={1}>
@@ -140,6 +144,7 @@ const ResumePage = () => {
                     animateOnRender
                     customLabel=" "
                     baseBgColor="gray"
+                    bgColor="#3a3b3c"
                   />
                 </Grid>
                 <Grid item xs={1}>
@@ -164,6 +169,7 @@ const ResumePage = () => {
                     animateOnRender
                     customLabel=" "
                     baseBgColor="gray"
+                    bgColor="#3a3b3c"
                   />
                 </Grid>
                 <Grid item xs={1}>

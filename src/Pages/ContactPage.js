@@ -2,7 +2,7 @@ import React from 'react'
 import Title from '../Components/Title'
 import { InnerLayout, MainLayout } from '../styles/Layout'
 import styled from "styled-components";
-import { BsInstagram, BsGithub } from "react-icons/bs";
+import {  BsInstagram, BsGithub } from "react-icons/bs";
 import { FaFacebook } from "react-icons/fa";
 
 const ContactPage = () => {
@@ -61,7 +61,7 @@ const ContactStyled = styled.header`
         transition: all 0.4s ease-in-out;
         cursor: pointer;
         &:hover {
-          color: var(--primary-color);
+          color: #007bff;
         }
         &:not(:last-child) {
           margin-right: 1rem;
