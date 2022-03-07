@@ -12,27 +12,8 @@ const HomePage = () => {
           Hi I'm <span>Tanva Taemthong</span>
         </h1>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s,
+          I'm Developer, I'm study in Thia-Nichi Institute of Technology
         </p>
-        <div className="icons">
-          <a style={{padding: 10}} href="https://www.facebook.com/tanva1942mon">
-            <div  className="icon i-facebook">
-              <FacebookIcon />
-            </div>
-          </a>
-          <a style={{padding: 10}} href="https://github.com/Munoom00">
-          <div className="icon i-github">
-            <GitHubIcon />
-          </div>
-          </a>
-          <a style={{padding: 10}} href="https://www.facebook.com/tanva1942mon">
-          <div className="icon i-youtube">
-            <YoutubeIcon />
-          </div>
-          </a>
-        </div>
       </div>
     </HomePageStyled>
   );
