@@ -26,6 +26,16 @@
                 </NavLink>
             </li>  
             <li className='nav-items'>
+                <NavLink to='/product' exact activeClassName="active">
+                    Product
+                </NavLink>
+            </li>
+            <li className='nav-items'>
+                <NavLink to='/cart' exact activeClassName="active">
+                    Cart
+                </NavLink>
+            </li>  
+            <li className='nav-items'>
                 <NavLink to='/contact' exact activeClassName="active">
                     Contact
                 </NavLink>

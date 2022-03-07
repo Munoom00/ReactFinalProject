@@ -18,6 +18,7 @@ const GlobalStyled = createGlobalStyle`
 //     --scrollbar-bg-color: #383838;
 //     --scrollbar-thump-color: #6b6b6b;
 //     --scrollbar-track-color: #383838;
+
 .light-theme{
     --primary-color: #007bff;
     --primary-color-light: #057FFF;
@@ -64,7 +65,7 @@ const GlobalStyled = createGlobalStyle`
     font-size: 1.2rem;
     list-style: none;
     text-decoration: none;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
 
 body{
@@ -108,6 +109,7 @@ span{
       color: var(--white-color);
     }
   }
+  
 
 `;
 
