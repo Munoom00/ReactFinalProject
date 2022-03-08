@@ -45,7 +45,7 @@ const GlobalStyled = createGlobalStyle`
     --background-dark-grey: #191D2B;
     --border-color: #b0b3b8;
     --background-light-color: #F1F1F1;
-    --background-light-color-2: rgba(3,127,255,.3);
+    --background-light-color-2: #3a3b3c;
     --white-color: #FFF;
     --font-light-color: #a4acc4;
     --font-dark-color: #313131;

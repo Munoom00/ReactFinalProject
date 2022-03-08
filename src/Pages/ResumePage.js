@@ -11,7 +11,8 @@ import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
-import { DiVisualstudio, DiPhotoshop, DiEclipse } from "react-icons/di";
+import { DiVisualstudio, DiPhotoshop } from "react-icons/di";
+import { FaWordpress } from "react-icons/fa";
 import { SiUnity } from "react-icons/si";
 
 const ResumePage = () => {
@@ -238,10 +239,10 @@ const ResumePage = () => {
                 columnSpacing={{ xs: 1, sm: 2, md: 3 }}
               >
                 <Grid item xs={4}>
-                  <DiEclipse className="icons" size={"100%"} />
+                  <FaWordpress className="icons" size={"100%"} />
                 </Grid>
                 <Grid item xs={8}>
-                  <p className="p">Basic to use Eclipse Coding</p>
+                  <p className="p">Basic to use Wordpress and Design</p>
                 </Grid>
               </Grid>
             </Grid>
