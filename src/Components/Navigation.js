@@ -2,8 +2,12 @@
  import styled from 'styled-components'
  import avatar from '../img/react_profile.jpg'
  import { NavLink } from 'react-router-dom'
+ import { useSelector } from "react-redux";
  
  const Navigation = () => {
+
+    const total = useSelector((state) => state.cartReducer.total);
+
    return (
      <NavigationStyled>
          <div className='avatar'>
@@ -32,7 +36,7 @@
             </li>
             <li className='nav-items'>
                 <NavLink to='/cart' exact activeClassName="active">
-                    Cart
+                    Cart {total} Item(s)
                 </NavLink>
             </li>  
             <li className='nav-items'>
