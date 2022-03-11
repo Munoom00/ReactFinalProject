@@ -88,8 +88,8 @@ const ProductPage = () => {
                   </TableCell>
                   <TableCell style={{ color: "white" }}>Created Date</TableCell>
                   <TableCell style={{ color: "white" }}>View</TableCell>
-                  <TableCell style={{ color: "white" }}>Detail</TableCell>
                   <TableCell style={{ color: "white" }}>Picture</TableCell>
+                  <TableCell style={{ color: "white" }}>Detail</TableCell>
                 </TableRow>
               </TableHead>
               {product.map((p, index) => (
