@@ -80,7 +80,7 @@ const ProductPage = () => {
           <TableContainer component={Paper} className="table">
             <Table sx={{ minWidth: 650 }} aria-label="simple table">
               <TableHead>
-                <TableRow style={{ backgroundColor: "#212121", color: "#fff" }}>
+                <TableRow className="thead">
                   <TableCell style={{ color: "white" }}>ID</TableCell>
                   <TableCell style={{ color: "white" }}>Title</TableCell>
                   <TableCell style={{ color: "white" }}>
@@ -88,23 +88,23 @@ const ProductPage = () => {
                   </TableCell>
                   <TableCell style={{ color: "white" }}>Created Date</TableCell>
                   <TableCell style={{ color: "white" }}>View</TableCell>
-                  <TableCell style={{ color: "white" }}>Picture</TableCell>
                   <TableCell style={{ color: "white" }}>Detail</TableCell>
+                  <TableCell style={{ color: "white" }}>Picture</TableCell>
                 </TableRow>
               </TableHead>
               {product.map((p, index) => (
                 <TableRow
-                  style={{ backgroundColor: "#616161", color: "#fff" }}
+                  className="tbody"
                   key={p.id}
                   sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
                 >
-                  <TableCell component="th" scope="product">
+                  <TableCell component="th" scope="product" className="tcell">
                     {p.id}
                   </TableCell>
-                  <TableCell>{p.title}</TableCell>
-                  <TableCell>{p.detail}</TableCell>
-                  <TableCell>{p.date}</TableCell>
-                  <TableCell>{p.view}</TableCell>
+                  <TableCell className="tcell">{p.title}</TableCell>
+                  <TableCell className="tcell">{p.detail}</TableCell>
+                  <TableCell className="tcell">{p.date}</TableCell>
+                  <TableCell className="tcell">{p.view}</TableCell>
                   {/* <td>{p.picture}</td> */}
                   <TableCell>
                     <Image src={p.picture} rounded width="60" />
@@ -141,6 +141,15 @@ const ProductStyle = styled.div`
   }
   .table {
     width: 80%;
+  }
+  .thead{
+    background-color: var(--table-header-color);
+  }
+  .tbody{
+    background-color: var(--table-body-color);
+  }
+  .tcell{
+    color: var(--white-color);
   }
 `;
 

@@ -44,7 +44,7 @@ const ResumePage = () => {
                     maxCompleted={100}
                     animateOnRender
                     customLabel=" "
-                    baseBgColor="gray"
+                    baseBgColor="#a9a9a9"
                     bgColor="#3a3b3c"
                   />
                 </Grid>
@@ -69,7 +69,7 @@ const ResumePage = () => {
                     maxCompleted={100}
                     animateOnRender
                     customLabel=" "
-                    baseBgColor="gray"
+                    baseBgColor="#a9a9a9"
                     bgColor="#3a3b3c"
                   />
                 </Grid>
@@ -94,7 +94,7 @@ const ResumePage = () => {
                     maxCompleted={100}
                     animateOnRender
                     customLabel=" "
-                    baseBgColor="gray"
+                    baseBgColor="#a9a9a9"
                     bgColor="#3a3b3c"
                   />
                 </Grid>
@@ -119,7 +119,7 @@ const ResumePage = () => {
                     maxCompleted={100}
                     animateOnRender
                     customLabel=" "
-                    baseBgColor="gray"
+                    baseBgColor="#a9a9a9"
                     bgColor="#3a3b3c"
                   />
                 </Grid>
@@ -144,7 +144,7 @@ const ResumePage = () => {
                     maxCompleted={100}
                     animateOnRender
                     customLabel=" "
-                    baseBgColor="gray"
+                    baseBgColor="#a9a9a9"
                     bgColor="#3a3b3c"
                   />
                 </Grid>
@@ -169,7 +169,7 @@ const ResumePage = () => {
                     maxCompleted={100}
                     animateOnRender
                     customLabel=" "
-                    baseBgColor="gray"
+                    baseBgColor="#a9a9a9"
                     bgColor="#3a3b3c"
                   />
                 </Grid>

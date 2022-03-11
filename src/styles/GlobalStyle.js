@@ -36,6 +36,9 @@ const GlobalStyled = createGlobalStyle`
     --scrollbar-bg-color: #383838;
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
+    --table-header-color: #007bff;
+    --table-body-color: #fbbbcb; 
+    --progress-background: #fbbbcb;
 }
 .dark-theme{
     --primary-color: #3a3b3c;
@@ -54,6 +57,9 @@ const GlobalStyled = createGlobalStyle`
     --scrollbar-bg-color: #383838;
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
+    --table-header-color: #212121;
+    --table-body-color: #616161;
+    --progress-background: gray;
 }
 
 }
