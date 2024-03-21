@@ -30,6 +30,11 @@
                 </NavLink>
             </li>  
             <li className='nav-items'>
+                <NavLink to='/portfolio' exact activeClassName="active">
+                    Portfolio
+                </NavLink>
+            </li> 
+            <li className='nav-items'>
                 <NavLink to='/product' exact activeClassName="active">
                     Product
                 </NavLink>
